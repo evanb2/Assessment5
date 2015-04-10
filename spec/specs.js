@@ -1,6 +1,10 @@
 describe("makeTriangle", function() {
-    it("returns false if the user inputs a non-triangle", function() {
+    it("returns 'This is not a triangle!' if the user inputs a non-triangle", function() {
         expect(makeTriangle(2, 2, 8)).to.equal("This is not a triangle!");
+    });
+
+    it("returns 'This is not a triangle!' if the user inputs 0", function() {
+        expect(makeTriangle(0, 0, 0)).to.equal("This is not a triangle!");
     });
 
     it("returns 'Equilateral' if the user inputs 3 equal numbers", function() {
