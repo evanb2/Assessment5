@@ -11,7 +11,7 @@ describe("makeTriangle", function() {
         expect(makeTriangle(3, 3, 2)).to.equal("Isosceles");
     });
 
-    // it("returns 'Scalene' if the user inputs any 2 equal sides", function() {
-    //     expect(makeTriangle(3, 3, 2)).to.equal("Isosceles");
-    // });
+    it("returns 'Scalene' if the user inputs 3 unique sides", function() {
+        expect(makeTriangle(3, 4, 2)).to.equal("Scalene");
+    });
 });
