@@ -9,6 +9,7 @@ scalene.
 In order to use this program you will need a browser...NOT IE!
 
 SetUp
+
 1. Open Terminal.
 
 2. Type: git clone https://github.com/evanb2/Assessment5.git
