@@ -1,15 +1,16 @@
 var makeTriangle = function(side1, side2, side3) {
 
-    var output = "";
+    var output = "Your Triangle is ";
 
     if (side1 + side2 < side3 || side2 + side3 < side1 || side1 + side3 < side2) {
-        output = "This is not a triangle";
+        output = "";
+        alert("This is not a triangle!");
     } else if (side1 === side2 && side1 === side3) {
-        output = "Equilateral";
+        output += "Equilateral.";
     } else if (side1 === side2 || side2 === side3 || side1 === side3) {
-        output = "Isosceles";
+        output += "Isosceles.";
     } else if (side1 !== side2 && side1 !== side3 && side2 !== side3) {
-        output = "Scalene";
+        output += "Scalene.";
     }
 
     return output;
