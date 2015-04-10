@@ -1,15 +1,21 @@
-# Name:
-# Date:
+# Name: Evan Butler
+# Date: April 10th, 2015.
 
-Description:
+Description: A site that will take the user's input for the length of each side
+of a triangle, and return whether that triangle is equilateral, isosceles, or
+scalene.
 
 # SetUp and Use
 In order to use this program you will need a browser...NOT IE!
 
 SetUp
-1.
+1. Open Terminal.
+2. Type: git clone https://github.com/evanb2/Assessment5.git
+3. Open Assessment5 folder.
+4. Open triangle.html file in your browser.
+5. Follow instructions on the page.
 
-# Copyright (c) 2015 (Name)
+# Copyright (c) 2015 (Evan Butler)
 
 # The MIT License (MIT)
 
